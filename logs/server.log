@@ -1,0 +1,6 @@
+[2024-05-14T13:49:10.106] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-14T13:49:10.117] [INFO] default - Verbonden met de database
+[2024-05-14T13:49:46.666] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-14T13:49:57.255] [INFO] default - DELETE /dealerships/19/cars - ::ffff:127.0.0.1
+[2024-05-14T13:49:57.275] [INFO] default - DELETE /dealerships/19 - ::ffff:127.0.0.1
+[2024-05-14T13:49:57.295] [INFO] default - GET /dealerships - ::ffff:127.0.0.1

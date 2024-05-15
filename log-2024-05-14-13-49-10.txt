@@ -1,0 +1,6 @@
+[2024-05-14T11:49:46.667Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-14T11:49:57.257Z] DELETE /dealerships/19/cars [::ffff:127.0.0.1]
+[2024-05-14T11:49:57.266Z] Alle voertuigen verwijderd van dealership met ID 19
+[2024-05-14T11:49:57.276Z] DELETE /dealerships/19 [::ffff:127.0.0.1]
+[2024-05-14T11:49:57.281Z] Dealership verwijderd met ID 19
+[2024-05-14T11:49:57.296Z] GET /dealerships [::ffff:127.0.0.1]
