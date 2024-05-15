@@ -24,12 +24,13 @@ log4js.configure({
 
 const logger = log4js.getLogger();
 
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'autodealership'
-});
+// const db = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   database: 'autodealership'
+// });
+console.log('test');
 
 const getCurrentDateTime = () => {
   const now = new Date();
