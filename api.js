@@ -5,15 +5,11 @@ const core = require('cors');
 const log4js = require('log4js');
 const fs = require('fs');
 
-
-
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(core());
-
-
 
 
 log4js.configure({
@@ -50,7 +46,7 @@ const logFileName = `log-${getCurrentDateTime()}.txt`;
 
 const logStream = fs.createWriteStream(logFileName, { flags: 'a' });
 
-// Middleware for logging requests
+
 app.use((req, res, next) => {
   logger.info(`${req.method} ${req.url} - ${req.ip}`);
   const log = `[${new Date().toISOString()}] ${req.method} ${req.url} [${req.ip}]\n`;
@@ -234,6 +230,7 @@ app.delete('/dealerships/:id/cars', (req, res) => {
 
 app.listen(port, () => {
   logger.info(`Luisteren naar adres: http://localhost:${port}`);
+  console.log('HALLO WORLD');
 });
 
 // GET /dealerships: Haal alle dealerships op.
