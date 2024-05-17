@@ -4,3 +4,390 @@
 [2024-05-14T13:49:57.255] [INFO] default - DELETE /dealerships/19/cars - ::ffff:127.0.0.1
 [2024-05-14T13:49:57.275] [INFO] default - DELETE /dealerships/19 - ::ffff:127.0.0.1
 [2024-05-14T13:49:57.295] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:11:12.222] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-15T15:11:12.232] [INFO] default - Verbonden met de database
+[2024-05-15T15:11:19.770] [INFO] default - GET / - ::1
+[2024-05-15T15:22:37.957] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:29:59.123] [INFO] default - DELETE /dealerships/20/cars - ::ffff:127.0.0.1
+[2024-05-15T15:29:59.179] [INFO] default - DELETE /dealerships/20 - ::ffff:127.0.0.1
+[2024-05-15T15:29:59.240] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.427] [INFO] default - DELETE /dealerships/21/cars - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.428] [INFO] default - DELETE /dealerships/21/cars - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.445] [INFO] default - DELETE /dealerships/21 - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.449] [INFO] default - DELETE /dealerships/21 - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.474] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.476] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.586] [INFO] default - DELETE /dealerships/21/cars - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.596] [INFO] default - DELETE /dealerships/21 - ::ffff:127.0.0.1
+[2024-05-15T15:30:00.609] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-15T15:30:06.112] [INFO] default - PUT /dealerships/22 - ::ffff:127.0.0.1
+[2024-05-15T15:30:06.180] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T09:37:40.732] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T09:37:40.741] [INFO] default - Verbonden met de database
+[2024-05-17T09:37:51.446] [INFO] default - GET / - ::1
+[2024-05-17T09:38:01.775] [INFO] default - GET /login - ::1
+[2024-05-17T09:53:11.974] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T09:53:13.406] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T09:53:23.987] [INFO] default - PUT /dealerships/22 - ::ffff:127.0.0.1
+[2024-05-17T09:53:24.037] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T09:54:08.252] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T09:54:08.604] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T09:55:07.216] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T09:55:07.748] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T09:57:29.606] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T09:57:29.620] [INFO] default - Verbonden met de database
+[2024-05-17T09:58:14.464] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T09:58:30.507] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T09:58:30.517] [INFO] default - Verbonden met de database
+[2024-05-17T09:59:03.219] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T09:59:03.453] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T10:00:30.359] [INFO] default - GET /dealerships/22/cars - ::ffff:127.0.0.1
+[2024-05-17T10:00:32.287] [INFO] default - GET /dealerships/24/cars - ::ffff:127.0.0.1
+[2024-05-17T10:00:34.367] [INFO] default - GET /dealerships/35/cars - ::ffff:127.0.0.1
+[2024-05-17T10:01:10.407] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:01:10.573] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T10:04:34.377] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:04:34.565] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-17T10:13:38.718] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T10:13:38.737] [INFO] default - Verbonden met de database
+[2024-05-17T10:14:03.170] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:14:03.181] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'zaza'"
+}
+[2024-05-17T10:14:44.858] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:14:44.861] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:15:51.067] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:15:51.079] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'name'"
+}
+[2024-05-17T10:19:01.128] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T10:19:01.137] [INFO] default - Verbonden met de database
+[2024-05-17T10:19:43.392] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:19:44.683] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:19:50.600] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:20:15.248] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T10:20:15.265] [INFO] default - Verbonden met de database
+[2024-05-17T10:20:39.828] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:20:39.832] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:14.914] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:14.916] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:15.788] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:15.790] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:24.256] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:24.258] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:37.404] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:37.405] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:38.267] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:38.269] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:38.501] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:38.504] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:38.698] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:21:38.699] [ERROR] default - Er is een fout opgetreden bij het vinden van de gebruiker:  Error: ER_NO_SUCH_TABLE: Table 'autodealership.users' doesn't exist
+    at Sequence._packetToError (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Administrator\Documents\GitHub\api2\node_modules\mysql\lib\Connection.js:198:25)
+    at findUserByUsername (C:\Users\Administrator\Documents\GitHub\api2\api.js:68:6)
+    at C:\Users\Administrator\Documents\GitHub\api2\api.js:103:3
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Administrator\Documents\GitHub\api2\node_modules\express\lib\router\index.js:346:12) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'autodealership.users' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "SELECT * FROM Users WHERE username = 'demo'"
+}
+[2024-05-17T10:21:47.264] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-17T10:21:47.271] [INFO] default - Verbonden met de database
+[2024-05-17T10:22:05.447] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-17T10:22:05.652] [INFO] default - GET /dealerships - ::ffff:127.0.0.1

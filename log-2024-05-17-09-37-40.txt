@@ -1,0 +1,11 @@
+[2024-05-17T07:37:51.447Z] GET / [::1]
+[2024-05-17T07:38:01.776Z] GET /login [::1]
+[2024-05-17T07:53:11.977Z] POST /login [::ffff:127.0.0.1]
+[2024-05-17T07:53:13.407Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-17T07:53:23.987Z] PUT /dealerships/22 [::ffff:127.0.0.1]
+[2024-05-17T07:53:24.003Z] Naam van dealership met ID 22 bijgewerkt: Car Nations -> Car Nations
+[2024-05-17T07:53:24.038Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-17T07:54:08.253Z] POST /login [::ffff:127.0.0.1]
+[2024-05-17T07:54:08.605Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-17T07:55:07.217Z] POST /login [::ffff:127.0.0.1]
+[2024-05-17T07:55:07.748Z] GET /dealerships [::ffff:127.0.0.1]

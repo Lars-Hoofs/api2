@@ -1,2 +1,25 @@
 [2024-05-15T13:11:19.770Z] GET / [::1]
 [2024-05-15T13:22:37.961Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-15T13:29:59.124Z] DELETE /dealerships/20/cars [::ffff:127.0.0.1]
+[2024-05-15T13:29:59.140Z] Alle voertuigen verwijderd van dealership met ID 20
+[2024-05-15T13:29:59.180Z] DELETE /dealerships/20 [::ffff:127.0.0.1]
+[2024-05-15T13:29:59.195Z] Dealership verwijderd met ID 20
+[2024-05-15T13:29:59.241Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.427Z] DELETE /dealerships/21/cars [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.429Z] DELETE /dealerships/21/cars [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.429Z] Alle voertuigen verwijderd van dealership met ID 21
+[2024-05-15T13:30:00.432Z] Alle voertuigen verwijderd van dealership met ID 21
+[2024-05-15T13:30:00.445Z] DELETE /dealerships/21 [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.450Z] DELETE /dealerships/21 [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.453Z] Dealership verwijderd met ID 21
+[2024-05-15T13:30:00.457Z] Dealership verwijderd met ID 21
+[2024-05-15T13:30:00.475Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.476Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.587Z] DELETE /dealerships/21/cars [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.589Z] Alle voertuigen verwijderd van dealership met ID 21
+[2024-05-15T13:30:00.596Z] DELETE /dealerships/21 [::ffff:127.0.0.1]
+[2024-05-15T13:30:00.596Z] Dealership verwijderd met ID 21
+[2024-05-15T13:30:00.610Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-15T13:30:06.113Z] PUT /dealerships/22 [::ffff:127.0.0.1]
+[2024-05-15T13:30:06.128Z] Naam van dealership met ID 22 bijgewerkt: Car Nation -> Car Nations
+[2024-05-15T13:30:06.181Z] GET /dealerships [::ffff:127.0.0.1]

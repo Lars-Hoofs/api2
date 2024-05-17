@@ -4,13 +4,14 @@ const mysql = require('mysql');
 const core = require('cors');
 const log4js = require('log4js');
 const fs = require('fs');
+const jwt = require('jsonwebtoken');
 
 const app = express();
 const port = 3000;
+const secretKey = 'Kaas';  
 
 app.use(express.json());
 app.use(core());
-
 
 log4js.configure({
   appenders: {
@@ -24,12 +25,12 @@ log4js.configure({
 
 const logger = log4js.getLogger();
 
-// const db = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '',
-//   database: 'autodealership'
-// });
+const db = mysql.createConnection({
+   host: 'localhost',
+   user: 'root',
+   password: '',
+   database: 'autodealership'
+ });
 console.log('test');
 
 const getCurrentDateTime = () => {
@@ -47,7 +48,6 @@ const logFileName = `log-${getCurrentDateTime()}.txt`;
 
 const logStream = fs.createWriteStream(logFileName, { flags: 'a' });
 
-
 app.use((req, res, next) => {
   logger.info(`${req.method} ${req.url} - ${req.ip}`);
   const log = `[${new Date().toISOString()}] ${req.method} ${req.url} [${req.ip}]\n`;
@@ -63,8 +63,38 @@ db.connect((err) => {
   logger.info('Verbonden met de database');
 });
 
-// Dealership endpoints
-app.get('/dealerships', (req, res) => {
+
+const authenticateJWT = (req, res, next) => {
+  const authHeader = req.headers.authorization;
+
+  if (authHeader) {
+    const token = authHeader.split(' ')[1];
+
+    jwt.verify(token, secretKey, (err, user) => {
+      if (err) {
+        return res.sendStatus(403);
+      }
+
+      req.user = user;
+      next();
+    });
+  } else {
+    res.sendStatus(401);
+  }
+};
+
+
+app.post('/login', (req, res) => {
+  const { username, password } = req.body;
+
+
+  const user = { username: 'demo' };  
+
+  const accessToken = jwt.sign(user, secretKey);
+  res.json({ accessToken });
+});
+
+app.get('/dealerships', authenticateJWT, (req, res) => {
   db.query('SELECT * FROM Dealership', (err, results) => {
     if (err) {
       logger.error('Er is een fout opgetreden bij het ophalen van de dealerships: ', err);
@@ -75,7 +105,7 @@ app.get('/dealerships', (req, res) => {
   });
 });
 
-app.get('/dealerships/:id', (req, res) => {
+app.get('/dealerships/:id', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   db.query('SELECT * FROM Dealership WHERE id = ?', [dealershipId], (err, results) => {
     if (err) {
@@ -91,7 +121,7 @@ app.get('/dealerships/:id', (req, res) => {
   });
 });
 
-app.post('/dealerships', (req, res) => {
+app.post('/dealerships', authenticateJWT, (req, res) => {
   const { name } = req.body;
   db.query('INSERT INTO Dealership (name) VALUES (?)', [name], (err, results) => {
     if (err) {
@@ -104,7 +134,7 @@ app.post('/dealerships', (req, res) => {
   });
 });
 
-app.put('/dealerships/:id', (req, res) => {
+app.put('/dealerships/:id', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   const { name } = req.body;
   db.query('SELECT name FROM Dealership WHERE id = ?', [dealershipId], (err, results) => {
@@ -130,7 +160,7 @@ app.put('/dealerships/:id', (req, res) => {
   });
 });
 
-app.delete('/dealerships/:id', (req, res) => {
+app.delete('/dealerships/:id', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   db.query('DELETE FROM Dealership WHERE id = ?', [dealershipId], (err, results) => {
     if (err) {
@@ -143,8 +173,7 @@ app.delete('/dealerships/:id', (req, res) => {
   });
 });
 
-
-app.get('/dealerships/:id/cars', (req, res) => {
+app.get('/dealerships/:id/cars', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   db.query('SELECT * FROM Car WHERE dealershipId = ?', [dealershipId], (err, results) => {
     if (err) {
@@ -156,7 +185,7 @@ app.get('/dealerships/:id/cars', (req, res) => {
   });
 });
 
-app.get('/dealerships/:id/cars/:carId', (req, res) => {
+app.get('/dealerships/:id/cars/:carId', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   const carId = req.params.carId;
   db.query('SELECT * FROM Car WHERE id = ? AND dealershipId = ?', [carId, dealershipId], (err, results) => {
@@ -173,7 +202,7 @@ app.get('/dealerships/:id/cars/:carId', (req, res) => {
   });
 });
 
-app.post('/dealerships/:id/cars', (req, res) => {
+app.post('/dealerships/:id/cars', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   const { make, model } = req.body;
   db.query('INSERT INTO Car (make, model, dealershipId) VALUES (?, ?, ?)', [make, model, dealershipId], (err, results) => {
@@ -187,7 +216,7 @@ app.post('/dealerships/:id/cars', (req, res) => {
   });
 });
 
-app.put('/dealerships/:id/cars/:carId', (req, res) => {
+app.put('/dealerships/:id/cars/:carId', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   const carId = req.params.carId;
   const { make, model } = req.body;
@@ -202,7 +231,7 @@ app.put('/dealerships/:id/cars/:carId', (req, res) => {
   });
 });
 
-app.delete('/dealerships/:id/cars/:carId', (req, res) => {
+app.delete('/dealerships/:id/cars/:carId', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   const carId = req.params.carId;
   db.query('DELETE FROM Car WHERE id = ? AND dealershipId = ?', [carId, dealershipId], (err, results) => {
@@ -216,7 +245,7 @@ app.delete('/dealerships/:id/cars/:carId', (req, res) => {
   });
 });
 
-app.delete('/dealerships/:id/cars', (req, res) => {
+app.delete('/dealerships/:id/cars', authenticateJWT, (req, res) => {
   const dealershipId = req.params.id;
   db.query('DELETE FROM Car WHERE dealershipId = ?', [dealershipId], (err, results) => {
     if (err) {
