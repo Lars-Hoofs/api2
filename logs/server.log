@@ -391,3 +391,5 @@
 [2024-05-17T10:21:47.271] [INFO] default - Verbonden met de database
 [2024-05-17T10:22:05.447] [INFO] default - POST /login - ::ffff:127.0.0.1
 [2024-05-17T10:22:05.652] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-20T22:49:09.151] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-20T22:49:09.159] [INFO] default - Verbonden met de database

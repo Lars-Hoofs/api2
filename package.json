@@ -4,6 +4,7 @@
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "esm": "^3.2.25",
     "express": "^4.19.2",
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
@@ -16,5 +17,6 @@
     "supertest": "^7.0.0"
   },
   "scripts": {
-    "test": "mocha test.js"}
+    "test": "mocha --require esm test.js"
+  }
 }
