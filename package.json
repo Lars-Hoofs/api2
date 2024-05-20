@@ -9,5 +9,12 @@
     "jsonwebtoken": "^9.0.2",
     "log4js": "^6.9.1",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"}
 }
