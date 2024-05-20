@@ -393,3 +393,25 @@
 [2024-05-17T10:22:05.652] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
 [2024-05-20T22:49:09.151] [INFO] default - Luisteren naar adres: http://localhost:3000
 [2024-05-20T22:49:09.159] [INFO] default - Verbonden met de database
+[2024-05-20T22:52:54.493] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-20T22:52:54.502] [INFO] default - Verbonden met de database
+[2024-05-20T22:53:18.414] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-20T22:53:18.655] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-20T22:53:48.434] [INFO] default - DELETE /dealerships/25/cars - ::ffff:127.0.0.1
+[2024-05-20T22:53:48.453] [INFO] default - DELETE /dealerships/25 - ::ffff:127.0.0.1
+[2024-05-20T22:53:48.481] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-20T22:58:43.353] [INFO] default - Luisteren naar adres: http://localhost:3000
+[2024-05-20T22:58:43.368] [INFO] default - Verbonden met de database
+[2024-05-20T23:03:57.294] [INFO] default - API server gestart op http://localhost:3000
+[2024-05-20T23:03:57.300] [INFO] default - Verbonden met de database
+[2024-05-20T23:03:57.313] [INFO] default - POST /login - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.323] [INFO] default - GET /dealerships - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.331] [INFO] default - POST /dealerships - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.340] [INFO] default - POST /dealerships - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.346] [INFO] default - GET /dealerships/37 - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.356] [INFO] default - POST /dealerships - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.363] [INFO] default - PUT /dealerships/38 - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.369] [INFO] default - GET /dealerships/38 - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.374] [INFO] default - POST /dealerships - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.380] [INFO] default - DELETE /dealerships/39 - ::ffff:127.0.0.1
+[2024-05-20T23:03:57.386] [INFO] default - GET /dealerships/39 - ::ffff:127.0.0.1

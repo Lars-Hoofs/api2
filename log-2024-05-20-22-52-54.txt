@@ -1,0 +1,7 @@
+[2024-05-20T20:53:18.414Z] POST /login [::ffff:127.0.0.1]
+[2024-05-20T20:53:18.656Z] GET /dealerships [::ffff:127.0.0.1]
+[2024-05-20T20:53:48.435Z] DELETE /dealerships/25/cars [::ffff:127.0.0.1]
+[2024-05-20T20:53:48.442Z] Alle voertuigen verwijderd van dealership met ID 25
+[2024-05-20T20:53:48.454Z] DELETE /dealerships/25 [::ffff:127.0.0.1]
+[2024-05-20T20:53:48.467Z] Dealership verwijderd met ID 25
+[2024-05-20T20:53:48.482Z] GET /dealerships [::ffff:127.0.0.1]
